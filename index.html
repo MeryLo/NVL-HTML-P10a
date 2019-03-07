@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Encuesta</title>
+
+    <style>
+        form {
+            padding: 51px;
+            margin: 100px auto;
+            border: 1px solid #909090;
+            width: 25%;
+            box-sizing: border-box;
+           
+        }
+    .datos {
+        margin: 15px;
+    }
+
+#calidadatencion {
+    display: flex;
+
+}
+    </style>
+
+</head>
+
+<body>
+
+    <form method="post" action="">
+        <div class="datos">
+            <label for="cpostal">Codigo Postal:</label><br>
+            <input id="cpostal" type="text">
+        </div>
+
+        <div class="datos">
+            <label for="nsatisfaccion">Nivel de Satisfaccion</label>
+            <select id="nsatisfaccion">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+        <div class="datos">
+            <label for="email">Email</label><br>
+            <input id="email">
+        </div>
+
+        <div class="datos">
+            <label for="positivo">Punto Positivo</label><br>
+            <textarea name="" id="positivo" cols="50" rows="1"></textarea>
+        </div>
+        <div class="datos">
+            <label for="negativo">Punto negativo</label><br>
+            <textarea name="" id="negativo" cols="50" rows="1"></textarea>
+        </div>
+        <div class="datos">
+            <label for="calidadproducto">Calidad</label><br>
+            <select id="calidadproducto">
+                <option value="exelente">Excelente</option>
+                <option value="bueno">Bueno</option>
+                <option value="Regular">Regular</option>
+                <option value="Pesimo">Pesimo</option>
+            </select>
+        </div>
+        <div class="datos">
+            <label for="precioproducto">Precio</label><br>
+            <select id="precioproducto">
+                <option value="exelente">Excelente</option>
+                <option value="bueno">Bueno</option>
+                <option value="Regular">Regular</option>
+                <option value="Pesimo">Pesimo</option>
+            </select>
+        </div>
+      
+        
+        <div class="datos">
+            <label for="calidadatencion">Atencion</label><br>
+            <select id="calidadatencion">
+                <option value="exelente">Excelente</option>
+                <option value="bueno">Bueno</option>
+                <option value="Regular">Regular</option>
+                <option value="Pesimo">Pesimo</option>
+            </select>
+        </div>
+        <div class="datos">
+                <label for="calidadatencion">Tiempo</label><br>
+                <select id="calidadatencion">
+                    <option value="exelente">Excelente</option>
+                    <option value="bueno">Bueno</option>
+                    <option value="Regular">Regular</option>
+                    <option value="Pesimo">Pesimo</option>
+                </select>
+            </div>
+
+        <div class="datos">
+                <label for="calidadproducto">Calidad</label><br>
+                <label>
+                    <input type="radio" value="excelente"> Excelente
+                </label>
+                <label>
+                    <input type="radio" value="bueno"> Bueno
+                </label>
+                <label>
+                    <input type="radio" value="pesimo"> Regular
+                </label>
+                <label>
+                    <input type="radio" value="pesimo"> Pesimo
+                </label>
+        </div>
+       
+
+        <div class="datos">
+                <label for="calidadproducto">Precio</label><br>
+                <label>
+                    <input type="radio" value="excelente"> Excelente
+                </label>
+                <label>
+                    <input type="radio" value="bueno"> Bueno
+                </label>
+                <label>
+                    <input type="radio" value="pesimo"> Regular
+                </label>
+                <label>
+                    <input type="radio" value="pesimo"> Pesimo
+                </label>
+        </div>
+
+
+        <div class="datos">
+                <label for="calidadproducto">Servicio</label><br>
+                <label>
+                    <input type="radio" value="excelente"> Excelente
+                </label>
+                <label>
+                    <input type="radio" value="bueno"> Bueno
+                </label>
+                <label>
+                    <input type="radio" value="pesimo"> Regular
+                </label>
+                <label>
+                    <input type="radio" value="pesimo"> Pesimo
+                </label>
+        </div>
+       
+
+        <div class="datos">
+                <label for="calidadproducto">tiempo de Espera</label><br>
+            <label>
+                <input type="radio" value="excelente"> Excelente
+            </label>
+            <label>
+                <input type="radio" value="bueno"> Bueno
+            </label>
+            <label>
+                <input type="radio" value="pesimo"> Regular
+            </label>
+            <label>
+                <input type="radio" value="pesimo"> Pesimo
+            </label>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
